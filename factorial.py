@@ -1,8 +1,4 @@
 #!/usr/bin/python3
-
-
-
-
 def factorial(number):
     if number == 0:
         return 1

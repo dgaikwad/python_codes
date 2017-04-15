@@ -1,8 +1,5 @@
 #!/usr/bin/python3
 
-
-
-
 def InQueue(list1,data):
     list1.append(data)
 def DeQueue(list1):
@@ -11,14 +8,10 @@ def isFull(list1):
     return  len(list1) == 10
 def isEmpty(list1):
     return  list1 == None or list1 == []
-        
-
 
 def queue_using_list():
     list1=[]
     while True:
-        #list1=[]
-#        print("Enter the choice:") 
         print("\n1.InQueue the element:")
         print("2.DeQueue the element:")
         print("3.Display:")

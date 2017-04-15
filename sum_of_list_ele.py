@@ -8,13 +8,8 @@ def sum_list(list1):
     print("Sum of all list elememts={0}".format(sum))
 
 
-
-
-
 if __name__ == "__main__":
-    print("Hello")
     list_input=list(eval(input("Enter the comma separated.")) )
-    #print(list_input)
     sum_list(list_input)
 
 

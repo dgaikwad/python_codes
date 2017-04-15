@@ -1,8 +1,4 @@
 #!/usr/bin/python3
-
-
-
-
 def InsertLast(list1,data):
     list1.append(data)
 def InsertFirst(list1,data):
@@ -31,8 +27,6 @@ def isFull(list1):
 
 def isEmpty(list1):
     return  list1 == None or list1 == []
-        
-
 
 def Deque_using_list():
     list1=[]
@@ -72,7 +66,6 @@ def Deque_using_list():
         elif ch == 8:
             print("Good bye")
             break
-
 
 if __name__ == "__main__":
      Deque_using_list()
