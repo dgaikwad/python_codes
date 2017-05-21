@@ -29,6 +29,7 @@ class Stack:
         print("\nStack contains Following elements:")
         for i in self.l1:
             print(i,end="\t")
+
 class Queue:
     def __init__(devi):
         devi.l1 = []
@@ -38,6 +39,7 @@ class Queue:
 
     def Pop(devi):
         return devi.l1.pop()
+
     def Display(devi):
         print("\nQueue contains Following elements:")
         for data in devi.l1:
@@ -65,7 +67,6 @@ def StackOpr():
 def main():
     StackOpr()
     QueueOpr()
-
 
 if __name__ == "__main__":
     main()
