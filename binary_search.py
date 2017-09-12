@@ -20,6 +20,6 @@ def binary_search(list1, data):
     return found    
 if __name__ == "__main__"    :
     testlist = [0, 1, 2, 8, 13, 17, 19, 32, 42,]    
-    print(binary_search(testlist, 3))
+    print(binary_search(testlist, 5))
     print(binary_search(testlist, 32))
 
