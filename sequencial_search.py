@@ -1,12 +1,14 @@
 #!/usr/bin/python3
 
-""" Sequencial search  program """
+""" Sequencial search  program 
 
-"""
+In this program we searching element one by one from given list
+
 Complexity:
 Best case = 1
 Average = n/2
 Worst case = n
+
 """
 
 def sequencial_search(list1, data):
