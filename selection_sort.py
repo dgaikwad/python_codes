@@ -3,14 +3,17 @@
 
 def selection_sort(list1):
     size = len(list1)
+
     if size == None:
         return list1
-    for i in range(size):
-        min = i
-        for j in range(i+1, size):
-            if list1[j] < list1[min]:
-                min = j
-        list1[i],list1[min] = list1[min],list1[i] 
+
+    for index in range(size):
+        min_index = index
+        for n_index in range(index+1, size):
+            if list1[n_index] < list1[min_index]:
+                min_index = n_index
+        list1[index],list1[min_index] = list1[min_index],list1[index] 
+
     return list1
 
 def main():
