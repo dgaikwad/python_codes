@@ -1,5 +1,11 @@
 #!/usr/bin/python3
-""" Program to sort list using selection sort """
+""" 
+Program to sort list using selection sort 
+For understanding purpose click on below's link.
+
+https://www.youtube.com/watch?time_continue=68&v=xWBP4lzkoyM
+
+"""
 
 def selection_sort(list1):
     size = len(list1)
