@@ -1,12 +1,11 @@
 #!/usr/bin/python3
 """
-    Merger the two sorted list into thired sorted list.
+    Merger the two sorted list into first list.
 
 """
 
 
 def merge_list(list1, list2):
-    output_list = []
     list1.extend(list2)
     list1=sorted(list1)
     return list1
