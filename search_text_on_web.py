@@ -10,7 +10,6 @@ class pythonorgserach(unittest.TestCase):
 
     def setUp(self):
 
-
 	"""set geckodriver bin file path """
         self.driver = webdriver.Firefox(executable_path = "/home/devi/web/geckodriver")
 
@@ -25,7 +24,6 @@ class pythonorgserach(unittest.TestCase):
 
     def tearDown(self):
         self.driver.quit()
-	pass
 
 if __name__ == "__main__":
     unittest.main()
