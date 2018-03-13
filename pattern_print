@@ -1,0 +1,16 @@
+#!/usr/bin/python3
+
+
+def pattern(rows, cols):
+    counter = 1
+    for row in range(rows):
+        for col in range(cols):
+            if row >= col:
+                print(counter, end=" ")
+            counter +=1
+
+        print()
+
+
+if __name__ == "__main__":
+    pattern(5,5)
