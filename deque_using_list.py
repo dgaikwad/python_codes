@@ -1,20 +1,36 @@
 #!/usr/bin/python3
 def InsertLast(list1,data):
-    list1.append(data)
+    if not isFull(list1):
+        list1.append(data)
+    else:
+        print("Dequeue is full")
+
 def InsertFirst(list1,data):
-    list1.insert(0,data)    
+    if not isFull(list1):    
+        list1.insert(0,data)    
+    else:
+        print("Dequeue is full")    
 
 def DeleteFirst(list1):
-    return list1.pop(0)
+
+    if not isEmpty(list1):
+        return list1.pop(0)
+    else:
+        print("Dequeue is empty")
 
 def DeleteLast(list1):
-    len1=len(list1)
-    return list1.pop(len1-1)
+    if not isEmpty(list1):
+        len1=len(list1)
+        return list1.pop(len1-1)
+    else:
+        print("Dequeue is empty")
+
 def First(list1):
     if list1 != None or list1 != []:
         return list1[0]
     else:
         print("List is empty")
+
 def Last(list1):
     if list1 != None or list1 != []:    
         len1=len(list1)
